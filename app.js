@@ -23,7 +23,7 @@ app.post( "/", ( req, res ) =>
     let newAdd = req.body.newAdd;
     console.log(req.body);
 
-    if ( req.body.list === "extra" )
+    if ( req.body.list === "Work" )
     {
         workAdds.push( newAdd );
         res.redirect( "/work" );
